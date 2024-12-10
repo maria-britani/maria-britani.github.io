@@ -1,0 +1,35 @@
+div{
+    background-color: black;
+    display: inline-block;
+    margin: auto;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b1b1b1;
+    margin: 0;
+    min-height: 100vh;
+}
+h2{
+    font-size: 7rem;
+    margin: 0;
+    color: rgba(12, 12, 12, 0.5);
+    animation: fon-move  5s infinite linear;
+    background-image: url(123.png);
+    -webkit-background-clip: text;
+}
+@keyframes fon-move{
+    0%{
+        background-position: left 0 top 80px
+    }
+    35%{
+        background-position: left 800px top -60px
+    }
+    75%{
+        background-position: left 1600px top -70px
+    }
+    100%{
+        background-position: left 2200px top 80px
+    }
+}
