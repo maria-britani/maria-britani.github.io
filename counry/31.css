@@ -1,0 +1,112 @@
+img{
+    width: 100%;
+}
+body{
+    font-family: "Ancizar Serif", serif;
+}
+.header-0{
+    background-image:linear-gradient(to right, #9e8aaac9 50%, #0ec93600), url(Earth-3.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.header-1{
+    background-image:linear-gradient(to right, #8aa1ff 50%, #6aa8ff00), url(south\ korea-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.header-2{
+    background-image:linear-gradient(to right, #8dc791 50%, #79f87900), url(Denmark-4.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.header-3{
+    background-image:linear-gradient(to right, #c0c5da 50%, #bed3f200), url(Sweden-4.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.header-4{
+    background-image:linear-gradient(to right, #ddc78a 50%, #ff6a6a00), url(Poland-4.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.header-5{
+    background-image:linear-gradient(to right, #7fc5e3 50%, #f68f5800), url(Australia-4.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.header-6{
+    background-image:linear-gradient(to right, #9d8aff 50%, #6aa8ff00), url(France-4.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.fu-0{
+    background: linear-gradient(#5bdb6c, #7fbdc2);
+}
+.fu-1{
+    background: linear-gradient(#e0b7da, #a65699);
+}
+.fu-2{
+    background: linear-gradient(#e7bbbb, #b22f2f);
+}
+.fu-3{
+    background: linear-gradient(#e9de67, #9399db);
+}
+.fu-4{
+    background: linear-gradient(#e1a1a1, #e96779);
+}
+.fu-5{
+    background: linear-gradient(#c1bee6, #5e5ad4);
+}
+.fu-6{
+    background: linear-gradient(#e3efa1, #88e0d5);
+}
+blockquote{
+    background-color: rgba(250, 235, 215, 0.456);
+    padding: 10px;
+}
+h1, h2{
+    font-family: "Roboto Slab", serif;
+}
+p, h3, h4{
+     font-family: "Oswald", sans-serif;
+}
+.round-border{
+    border-radius: 50px;
+transition: 3s;
+}
+.round-border:hover{
+transform: scale(1.5);
+}
+.overflow{
+     overflow: hidden;
+}
+footer{
+    padding-top: 50px;
+}
+h3{
+    text-align: center;
+}
+.lu{
+     text-align: center;
+}
