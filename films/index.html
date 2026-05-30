@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фільмонарія</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="img.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <a href="#" class="link-top">
+        <div class="btn-Top">
+            &#8607;
+        </div>
+    </a>
+
+    <div class="preloader">
+        <!-- сюди скопіюємо з інтернету кружечок -->
+        <div class="loader"></div>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My<span class="particle">Movies</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link  " aria-current="page" href="#">Головна</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  " href="#films">Фільми</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  " href="#series">Серіали</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  " href="#genres">Жанри</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/movie.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/pexels-bence-szemerey-337043-7081182.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/pexels-lucaspezeta-2398354.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/pexels-pavel-danilyuk-7234393.jpg" alt=""></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </div>
+
+    <h2> Мої улюблені фільми:</h2>
+    <div class="cards">
+        <div class="container-fluid">
+
+
+            <div class="row justify-content-center">
+                <div class="col-sm-7 col-md-5 col-lg-4 col-xl-3">
+                    <img src="img/The Lord of the Rings.jpg" alt="">
+                    <h3>The Lord of the Rings</h3>
+                    <p> 2001</p>
+                </div>
+                <div class="col-sm-7 col-md-5 col-lg-4 col-xl-3">
+                    <img src="img/Fight_Club.jpg" alt="">
+                    <h3>Fight Club</h3>
+                    <p> 1999</p>
+                </div>
+                <div class="col-sm-7 col-md-5 col-lg-4 col-xl-3">
+                    <img src="img/HungerGamesPoster.jpg" alt="">
+                    <h3>The Hunger Games</h3>
+                    <p> 2012</p>
+                </div>
+                <div class="col-sm-7 col-md-5 col-lg-4 col-xl-3">
+                    <img src="img/Назад_у_майбутнє.jpg" alt="">
+                    <h3>Back to the Future</h3>
+                    <p>1985</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <h2>Останні перегляди:</h2>
+    <div class="laters">
+        <div class="container-fluid">
+            <div class="row justify-content-around">
+                <div class="col-10 col-sm-5 col-md-3 col-lg-2 ">
+                    <img src="img/tt.jpg" alt="">
+                    <h5>IT</h5>
+
+                </div>
+
+                <div class="col-sm-5 col-md-3 col-lg-2 ">
+                    <img src="img/Постер_фільму__Субстанція_.jpg" alt="">
+                    <h5>The Substance</h5>
+                </div>
+                <div class="col-sm-5 col-md-3 col-lg-2 ">
+                    <img src="img/Requiem_for_a_dream.jpg" alt="">
+                    <h5>Requiem for a Dream </h5>
+                </div>
+                <div class="col-sm-5 col-md-3 col-lg-2 ">
+                    <img src="img/Scream_(1996).jpg" alt="">
+                    <h5>Scream</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section class="films" id="films">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/Dovzhenko_filming_1932.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div class="history">
+                        <p> <span class="film">Фільм</span>, також кінофі́льм, кіно, — аудіовізуальний твір
+                            кінематографії, що
+                            складається з епізодів, поєднаних між собою творчим задумом і зображувальними засобами, і є
+                            результатом спільної діяльності авторів, виконавців та виробників. У технологічному плані
+                            фільм являє собою сукупність рухомих зображень (монтажних кадрів), пов'язаних єдиним
+                            сюжетом.</p>
+                        <p> Кожен монтажний кадр складається з послідовності фотографічних або цифрових нерухомих
+                            зображень,
+                            на яких зафіксовані окремі фази руху. Фільм найчастіше містить звуковий супровід.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center align-items-center  my-3">
+                <div class="col-10 col-sm-8">
+                    <h3>The Maze Runner</h3>
+                    <p>розповідає про Томаса, який опиняється серед групи підлітків у загадковому Лабіринті без пам’яті
+                        про
+                        минуле. Щодня вони шукають вихід, ризикуючи життям через небезпечних створінь. Томас намагається
+                        розгадати таємницю місця й зрозуміти, хто стоїть за жорстоким експериментом, щоб урятувати
+                        друзів і
+                        вибратися на свободу назавжди.</p>
+                </div>
+                <div class="col-10 col-sm-4">
+                    <img src="img/Той,_що_біжить_лабіринтом.jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="row align-items-center  my-3">
+                <div class="col-10 col-sm-4">
+                    <img src="img/Rupa.jpg" alt="">
+                </div>
+                <div class="col-10 col-sm-8">
+                    <h3>Rupa</h3>
+                    <p>розповідає про чотирьох підлітків, які вирішують сховатися у старому підземному бункері заради
+                        розваги. Несподівано вони залишаються замкненими без їжі та зв’язку із зовнішнім світом. Через
+                        страх
+                        і відчай між друзями починаються конфлікти. Після порятунку поліція намагається дізнатися правду
+                        про
+                        загадкову трагедію та винних у ній.</p>
+                </div>
+            </div>
+
+            <div class="row align-items-center my-3">
+                <div class="col-10 col-sm-8">
+                    <h3>Pirates of the Caribbean</h3>
+                    <p>розповідає про коваля Вілла Тернера та пірата Джека Горобця, які вирушають рятувати Елізабет
+                        Свонн
+                        від проклятої команди корабля «Чорна Перлина». Пірати перетворюються на скелетів під місячним
+                        світлом через давнє прокляття. Герої проходять небезпечні пригоди, битви та зраду, щоб зняти
+                        прокляття й урятувати життя.</p>
+                </div>
+                <div class="col-10 col-sm-4">
+                    <img src="img/Piraty_karybskoho_moria_-_skrynia_merzia_(2006)_UA_Poster.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section class="series" id="series">
+        <div class="container">
+            <div class="history">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Серіа́л — поширене та популярне явище сучасного мистецтва, яке використовується
+                            переважно в літературі, кіно, телебаченні та анімації; спосіб організації та побудови
+                            художніх
+                            творів, котрий полягає в тому, що твір складається з багатьох окремих частин, зазвичай
+                            відносно
+                            невеликого розміру. Як правило, твори серіалу об'єднані спільними персонажами, інколи
+                            спільним
+                            антуражем подій чи лінійним сюжетом. Проте абсолютна більшість серіалів тримається саме на
+                            персонажах.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/series.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-10 col-sm-4">
+                    <img src="img/Друзі-_Возз'єднання.jpg" alt="">
+                </div>
+                <div class="col-10 col-sm-8">
+                    <h3>Friends</h3>
+                    <p>Friends розповідає про шістьох друзів — Рейчел, Моніку, Фібі, Джої, Чендлера та Росса, які живуть
+                        у Нью-Йорку. Вони разом переживають кохання, сварки, кар’єрні труднощі та кумедні життєві
+                        ситуації. Серіал показує силу дружби, підтримку й дорослішання через гумор, романтичні пригоди
+                        та щоденні проблеми молодих людей.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-10 col-sm-8">
+                    <h3>Stranger Things</h3>
+                    <p>У містечку Гокінс зникає хлопець Вілл Байєрс. Його друзі знаходять загадкову дівчинку Одинадцять
+                        із надприродними здібностями. Вони відкривають існування паралельного світу — Догори Дриґом, де
+                        ховаються небезпечні істоти. Діти, батьки й шериф борються з монстрами та урядовими
+                        експериментами, намагаючись урятувати друзів і своє місто від смертельної загрози.</p>
+                </div>
+                <div class="col-10 col-sm-4">
+                    <img src="img/stranger_things.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-10 col-sm-4">
+                    <img src="img/УэнсдейПостер.jpg" alt="">
+                </div>
+                <div class="col-10 col-sm-8">
+                    <h3>Wednesday</h3>
+                    <p>Wednesday розповідає про Венздей Аддамс, яка вступає до академії «Невермор» для незвичайних
+                        підлітків. Вона намагається контролювати свої здібності, розкрити серію загадкових убивств і
+                        дізнатися таємниці минулого своєї родини. Похмурий гумор, містика та детективні пригоди
+                        супроводжують її пошуки правди й боротьбу з небезпечним монстром.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <selection class="genres" id="genres">
+        <div class="container">
+            <div class="row">
+                <div class="a1">
+                    <h3>Жанри</h3>
+                    <p>Жанр (фр. genre, від лат. genus: рід, плем'я) — тематичний, технічно усталений тип художньої
+                        творчості, специфічний для кожного різновиду мистецтва, які визначається своєрідністю
+                        Жанр — тематичний, технічно усталений тип художньої
+                        творчості,
+                        специфічний для кожного різновиду мистецтва, які визначається своєрідністю зображення. У
+                        мистецтвознавстві — рід твору,
+                        що характеризується сукупністю формальних і змістовних особливостей. У кожній області художньої
+                        діяльності жанрова диференціація особлива залежно від специфіки виду
+                        мистецтва: такий жанровий ряд, як «побутовий жанр — портрет — пейзаж — натюрморт», властивий
+                        живопису і неможливий в музиці, літературі і кіномистецтві; так само
+                        «пісня — романс — кантата — ораторія» є ряд специфічно музичних жанрів. Однак існують загальні
+                        для всіх мистецтв жанрові диференціації, які лише по-своєму
+                        відбиваються в кожному виді.</p>
+                </div>
+            </div>
+        </div>
+        <div class="genres-container">
+            <div class="container">>
+                <!-- Картка 1: Екшн -->
+                <div class="row justify-content-center">
+                    <div class="col-md-6   col-lg-4 col-xl-3 my-3">
+                        <div class="genre-card">
+                            <h4>Екшн</h4>
+                            <p>Динамічні фільми з погонями, бійками та каскадерськими трюками.</p>
+
+                            <div class="more-info">
+                                <p>Цей жанр фокусується на діях героїв, які долають складні перешкоди.</p>
+                                <h5>Популярні фільми:</h5>
+                                <ul>
+                                    <li>Шалений Макс: Дорога гніву</li>
+                                    <li>Джон Уік</li>
+                                    <li>Темний лицар</li>
+                                    <li>Месники: Фінал</li>
+                                    <li>Безсмертний Джон Вік</li>
+                                </ul>
+                            </div>
+
+                            <button class="toggle-btn">Більше</button>
+                        </div>
+                    </div>
+                    <!-- Картка 2: Фантастика -->
+                    <div class="col-md-6   col-lg-4 col-xl-3 my-3">
+                        <div class="genre-card">
+                            <h4>Фантастика</h4>
+                            <p>Світи майбутнього, космічні подорожі та передові технології.</p>
+
+                            <div class="more-info">
+                                <p>Жанр досліджує вплив уявних технологій та науки на суспільство.</p>
+                                <h5>Популярні фільми:</h5>
+                                <ul>
+                                    <li>Інтерстеллар</li>
+                                    <li>Матриця</li>
+                                    <li>Той, хто біжить по лезу 2049</li>
+                                    <li>Аватар</li>
+                                    <li>Зоряні війни: Нова надія</li>
+                                </ul>
+                            </div>
+
+                            <button class="toggle-btn">Більше</button>
+                        </div>
+                    </div>
+                    <!-- Картка 3: Драма -->
+                    <div class="col-md-6   col-lg-4 col-xl-3 my-3">
+                        <div class="genre-card">
+                            <h4>Драма</h4>
+                            <p>Емоційні фільми про життя, стосунки та внутрішні переживання героїв.</p>
+
+                            <div class="more-info">
+                                <p>Цей жанр фокусується на конфліктах, почуттях і особистісному розвитку персонажів.
+                                </p>
+                                <h5>Популярні фільми:</h5>
+                                <ul>
+                                    <li>Форрест Ґамп</li>
+                                    <li>Втеча з Шоушенка</li>
+                                    <li>Король Річард</li>
+                                    <li>Титанік</li>
+                                    <li>Зелена миля</li>
+                                </ul>
+                            </div>
+
+                            <button class="toggle-btn">Більше</button>
+                        </div>
+                    </div>
+                    <!-- Картка 4: Комедія -->
+                    <div class=" col-md-6  col-lg-4 col-xl-3 my-3">
+                        <div class="genre-card">
+                            <h4>Комедія</h4>
+                            <p>Веселі фільми з гумором, кумедними ситуаціями та смішними персонажами.</p>
+
+                            <div class="more-info">
+                                <p>Цей жанр фокусується на розвазі глядача, створюючи легку та позитивну атмосферу.
+                                </p>
+                                <h5>Популярні фільми:</h5>
+                                <ul>
+                                    <li>День бабака</li>
+                                    <li>Суперперці</li>
+                                    <li>Мальчишник у Вегасі</li>
+                                    <li>Відпустка по обміну</li>
+                                    <li>Шпигун, який мене кинув</li>
+                                </ul>
+                            </div>
+
+                            <button class="toggle-btn">Більше</button>
+                        </div>
+                    </div>
+                    <!-- Картка 5: Трилер -->
+                    <div class="col-md-6   col-lg-4 col-xl-3 my-3">
+                        <div class="genre-card">
+                            <h4>Трилер</h4>
+                            <p>Напружені фільми із загадками, небезпекою та непередбачуваними подіями.</p>
+
+                            <div class="more-info">
+                                <p>Цей жанр фокусується на створенні suspense і тримає глядача в напрузі до самого
+                                    кінця.
+                                </p>
+                                <h5>Популярні фільми:</h5>
+                                <ul>
+                                    <li>Сім</li>
+                                    <li>Мовчання ягнят</li>
+                                    <li>Острів проклятих</li>
+                                    <li>Зодіак</li>
+                                    <li>Втеча</li>
+                                </ul>
+                            </div>
+
+                            <button class="toggle-btn">Більше</button>
+                        </div>
+                    </div>
+                    <!-- Картка 6: Жахи -->
+                    <div class="col-md-6   col-lg-4 col-xl-3 my-3">
+                        <div class="genre-card">
+                            <h4>Жахи</h4>
+                            <p>Страшні фільми з моторошною атмосферою, небезпекою та надприродними явищами.</p>
+
+                            <div class="more-info">
+                                <p>Цей жанр фокусується на викликанні страху, напруги та сильних емоцій у глядача.
+                                </p>
+                                <h5>Популярні фільми:</h5>
+                                <ul>
+                                    <li>Сяйво</li>
+                                    <li>Воно</li>
+                                    <li>Закляття</li>
+                                    <li>Астрал</li>
+                                    <li>Екзорцист</li>
+                                </ul>
+                            </div>
+
+                            <button class="toggle-btn">Більше</button>
+                        </div>
+                    </div>
+                    <!-- Картка 7: Мелодрама -->
+                    <div class="col-md-6   col-lg-4 col-xl-3 my-3">
+                        <div class="genre-card">
+                            <h4>Мелодрама</h4>
+                            <p>Емоційні фільми про кохання, стосунки та життєві переживання героїв.</p>
+
+                            <div class="more-info">
+                                <p>Цей жанр фокусується на почуттях персонажів, романтичних історіях і драматичних
+                                    подіях.
+                                </p>
+                                <h5>Популярні фільми:</h5>
+                                <ul>
+                                    <li>Титанік</li>
+                                    <li>Щоденник пам’яті</li>
+                                    <li>Ла-Ла Ленд</li>
+                                    <li>Гордість і упередження</li>
+                                    <li>До зустрічі з тобою</li>
+                                </ul>
+                            </div>
+
+                            <button class="toggle-btn">Більше</button>
+                        </div>
+                    </div>
+                    <!-- Картка 8: Мультфільм -->
+                    <div class="col-md-6   col-lg-4 col-xl-3 my-3 ">
+                        <div class="genre-card">
+                            <h4>Мультфільм</h4>
+                            <p>Анімаційні фільми, створені за допомогою малюнків або комп’ютерної графіки.</p>
+
+                            <div class="more-info">
+                                <p>Цей жанр фокусується на яскравих персонажах, простих або казкових історіях і
+                                    часто
+                                    підходить для
+                                    дітей та сімейного перегляду.</p>
+                                <h5>Популярні фільми:</h5>
+                                <ul>
+                                    <li>Король Лев</li>
+                                    <li>Шрек</li>
+                                    <li>Крижане серце</li>
+                                    <li>Історія іграшок</li>
+                                    <li>В пошуках Немо</li>
+                                </ul>
+                            </div>
+
+                            <button class="toggle-btn">Більше</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </selection>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="9.js"></script>
+</body>
+
+</html>
